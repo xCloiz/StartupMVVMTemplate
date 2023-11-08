@@ -14,6 +14,17 @@
 		D682D90C2AFB04B300F9599F /* StartupMVVMTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D90B2AFB04B300F9599F /* StartupMVVMTemplateTests.swift */; };
 		D682D9162AFB04B300F9599F /* StartupMVVMTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9152AFB04B300F9599F /* StartupMVVMTemplateUITests.swift */; };
 		D682D9182AFB04B300F9599F /* StartupMVVMTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9172AFB04B300F9599F /* StartupMVVMTemplateUITestsLaunchTests.swift */; };
+		D682D92F2AFB063F00F9599F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D92E2AFB063F00F9599F /* Api.swift */; };
+		D682D9312AFB07A000F9599F /* CustomApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9302AFB07A000F9599F /* CustomApi.swift */; };
+		D682D9362AFB090600F9599F /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9352AFB090600F9599F /* Endpoint.swift */; };
+		D682D93A2AFB0BCE00F9599F /* MyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9392AFB0BCE00F9599F /* MyApi.swift */; };
+		D682D93E2AFB0DF100F9599F /* GetEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D93D2AFB0DF100F9599F /* GetEndpoint.swift */; };
+		D682D9402AFB0E1A00F9599F /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D93F2AFB0E1A00F9599F /* HttpMethod.swift */; };
+		D682D9422AFB0EAC00F9599F /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9412AFB0EAC00F9599F /* ApiError.swift */; };
+		D682D9442AFB0ED800F9599F /* ApiRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9432AFB0ED800F9599F /* ApiRequester.swift */; };
+		D682D9482AFB0F3700F9599F /* MyApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9472AFB0F3700F9599F /* MyApiService.swift */; };
+		D682D94A2AFB0F4600F9599F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D9492AFB0F4600F9599F /* Service.swift */; };
+		D682D94C2AFB101E00F9599F /* PostEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682D94B2AFB101E00F9599F /* PostEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,17 @@
 		D682D9112AFB04B300F9599F /* StartupMVVMTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartupMVVMTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D682D9152AFB04B300F9599F /* StartupMVVMTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupMVVMTemplateUITests.swift; sourceTree = "<group>"; };
 		D682D9172AFB04B300F9599F /* StartupMVVMTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupMVVMTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D682D92E2AFB063F00F9599F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		D682D9302AFB07A000F9599F /* CustomApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomApi.swift; sourceTree = "<group>"; };
+		D682D9352AFB090600F9599F /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D682D9392AFB0BCE00F9599F /* MyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApi.swift; sourceTree = "<group>"; };
+		D682D93D2AFB0DF100F9599F /* GetEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEndpoint.swift; sourceTree = "<group>"; };
+		D682D93F2AFB0E1A00F9599F /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		D682D9412AFB0EAC00F9599F /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		D682D9432AFB0ED800F9599F /* ApiRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequester.swift; sourceTree = "<group>"; };
+		D682D9472AFB0F3700F9599F /* MyApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApiService.swift; sourceTree = "<group>"; };
+		D682D9492AFB0F4600F9599F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D682D94B2AFB101E00F9599F /* PostEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +117,14 @@
 		D682D8F82AFB04B000F9599F /* StartupMVVMTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D682D9372AFB091F00F9599F /* Services */,
+				D682D92B2AFB05E300F9599F /* Providers */,
+				D682D9292AFB04FE00F9599F /* Network */,
+				D682D9282AFB04F700F9599F /* Models */,
+				D682D9272AFB04F000F9599F /* Utils */,
+				D682D9262AFB04D500F9599F /* Components */,
+				D682D9252AFB04CB00F9599F /* Modules */,
+				D682D9242AFB04C300F9599F /* App */,
 				D682D8F92AFB04B000F9599F /* StartupMVVMTemplateApp.swift */,
 				D682D8FB2AFB04B000F9599F /* ContentView.swift */,
 				D682D8FD2AFB04B200F9599F /* Assets.xcassets */,
@@ -127,6 +157,129 @@
 				D682D9172AFB04B300F9599F /* StartupMVVMTemplateUITestsLaunchTests.swift */,
 			);
 			path = StartupMVVMTemplateUITests;
+			sourceTree = "<group>";
+		};
+		D682D9242AFB04C300F9599F /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D682D9252AFB04CB00F9599F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D682D9262AFB04D500F9599F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D682D9272AFB04F000F9599F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D682D9282AFB04F700F9599F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D682D9292AFB04FE00F9599F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D682D92A2AFB05B800F9599F /* Api */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D682D92A2AFB05B800F9599F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D682D9382AFB0B4600F9599F /* MyApi */,
+				D682D9342AFB08F300F9599F /* Core */,
+				D682D92C2AFB061900F9599F /* Custom */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		D682D92B2AFB05E300F9599F /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		D682D92C2AFB061900F9599F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D682D9302AFB07A000F9599F /* CustomApi.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		D682D9342AFB08F300F9599F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D682D92E2AFB063F00F9599F /* Api.swift */,
+				D682D9352AFB090600F9599F /* Endpoint.swift */,
+				D682D93F2AFB0E1A00F9599F /* HttpMethod.swift */,
+				D682D9412AFB0EAC00F9599F /* ApiError.swift */,
+				D682D9432AFB0ED800F9599F /* ApiRequester.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D682D9372AFB091F00F9599F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D682D9462AFB0F2900F9599F /* Core */,
+				D682D9452AFB0F1C00F9599F /* MyApi */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D682D9382AFB0B4600F9599F /* MyApi */ = {
+			isa = PBXGroup;
+			children = (
+				D682D93C2AFB0DD000F9599F /* Endpoints */,
+				D682D9392AFB0BCE00F9599F /* MyApi.swift */,
+			);
+			path = MyApi;
+			sourceTree = "<group>";
+		};
+		D682D93C2AFB0DD000F9599F /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				D682D93D2AFB0DF100F9599F /* GetEndpoint.swift */,
+				D682D94B2AFB101E00F9599F /* PostEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		D682D9452AFB0F1C00F9599F /* MyApi */ = {
+			isa = PBXGroup;
+			children = (
+				D682D9472AFB0F3700F9599F /* MyApiService.swift */,
+			);
+			path = MyApi;
+			sourceTree = "<group>";
+		};
+		D682D9462AFB0F2900F9599F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D682D9492AFB0F4600F9599F /* Service.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +412,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D682D94C2AFB101E00F9599F /* PostEndpoint.swift in Sources */,
+				D682D93A2AFB0BCE00F9599F /* MyApi.swift in Sources */,
+				D682D94A2AFB0F4600F9599F /* Service.swift in Sources */,
+				D682D92F2AFB063F00F9599F /* Api.swift in Sources */,
 				D682D8FC2AFB04B000F9599F /* ContentView.swift in Sources */,
+				D682D9422AFB0EAC00F9599F /* ApiError.swift in Sources */,
+				D682D9402AFB0E1A00F9599F /* HttpMethod.swift in Sources */,
+				D682D9482AFB0F3700F9599F /* MyApiService.swift in Sources */,
+				D682D9312AFB07A000F9599F /* CustomApi.swift in Sources */,
+				D682D93E2AFB0DF100F9599F /* GetEndpoint.swift in Sources */,
+				D682D9362AFB090600F9599F /* Endpoint.swift in Sources */,
+				D682D9442AFB0ED800F9599F /* ApiRequester.swift in Sources */,
 				D682D8FA2AFB04B000F9599F /* StartupMVVMTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
