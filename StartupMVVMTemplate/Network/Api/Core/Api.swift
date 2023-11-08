@@ -13,7 +13,7 @@ enum Api {
     
     private var accessor: ApiProtocol {
         switch self {
-        case .myapi: return EmptyApi()
+        case .myapi: return MyApi()
         case .custom(let url, let headers): return headers == nil ? CustomApi(baseUrl: url) : CustomApi(baseUrl: url, headers: headers!)
         }
     }
